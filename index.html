@@ -3,32 +3,31 @@
     <link rel="icon" href="3D.png">
     <title>placeholder</title>
     <style>
-      body{
+      body {
         background-color: rgb(29, 31, 32);
       }
-      model-viewer
-      {
+      model-viewer {
         height: 600px;
         width: 800px;
       }
-      .text{
+      .text {
         color: white;
         font-family: arial;
         font-size: 20px;
         font-weight: 200;
       }
-      /*
-      @media only screen and (max-width: 880px)
-      {
-        width: 100%;
+      @media (max-width: 620px) {
+        model-viewer {
+          height: 450px;
+          width: 600px;
+        }
       }
-      */
     </style>
   </head>
   <body>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
     <center>
-      <model-viewer src="placeholder.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+    <model-viewer src="models/construct_worker.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
       <div class="text">placeholder</div>
     </center>
   </body>
