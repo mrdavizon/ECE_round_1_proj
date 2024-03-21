@@ -1,4 +1,4 @@
-# drop-kicking-toddlers
+# ECE_round_1_proj
 i don't know, just a cringe school project where we make ar models for toddler
 
 
